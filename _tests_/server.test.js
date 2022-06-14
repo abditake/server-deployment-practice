@@ -10,7 +10,7 @@ describe('Server Tests', ()=>{
       const response = await request.get('/');
       expect(response.status).toEqual(200);
     });
-    test('api route works', async()=>{
+    test('api route works yay!', async()=>{
       const response = await request.get('/api');
       expect(response.status).toEqual(200);
       console.log(response.text,response.body);
